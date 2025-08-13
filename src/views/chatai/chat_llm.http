@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8081/api/llm/chat HTTP/1.1
+Content-Type: application/json
+
+{
+    "messages": [
+        {
+            "role": "user",
+            "text": "你好"
+        }
+    ]
+}
